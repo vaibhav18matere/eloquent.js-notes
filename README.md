@@ -122,3 +122,37 @@ Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.noti
 [Solution](https://replit.com/@Vaibhav18Matere/star-pattern-do-while-loop)
 
 # Function
+- Function declarations are not part of the regular top-to-bottom flow of control.
+    - Code works, even though the function is defined *below* the code that uses it
+    
+    ```jsx
+    console.log("The future says:", future());
+    function future() {
+    
+         return "You'll never have flying cars";
+    }
+    ```
+    
+
+**Arrow functions  ⇒** 
+
+It expresses something like “this input (the parameters) produces this result (the body)”
+
+- When there is only one parameter name, you can omit the parentheses around the parameter list.
+
+```jsx
+const square1 = (x) => { return x * x; };
+const square2 = x => x * x;
+```
+
+JavaScript is extremely broad-minded about the number of arguments you pass to a function. If you pass too many, the extra ones are ignored. If you pass too few, the missing parameters get assigned the value `undefined`.
+
+- **The call stack ⇒**
+- **Optional Arguments ⇒**
+- **Closure ⇒**
+
+A function that calls itself is called *recursive*.
+
+- **Growing functions ⇒**
+
+**Give short and meaningful name to the function**
