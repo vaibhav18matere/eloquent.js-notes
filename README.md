@@ -9,76 +9,76 @@
 
 ## Chapter 2 - Values, Types & Operators
 
-console.log("Aardvark" < "Zoroaster")
+- console.log("Aardvark" < "Zoroaster")
  → true
 
-"Z" < "a"
+- "Z" < "a"
 →  true 
 
 - uppercase letters are always “less” than lowercase ones
 
-console.log(NaN == NaN)
+- console.log(NaN == NaN)
  → false
 
 - NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
 
-console.log(true && false)
+- console.log(true && false)
 // → false
 
-console.log(true && true)
+- console.log(true && true)
 // → true
 
-console.log(false || true)
+- console.log(false || true)
 // → true
 
-console.log(false || false)
+- console.log(false || false)
 // → false
 
-console.log(8 * null)
+- console.log(8 * null)
 // → 0
 
 - null  becomes 0
 
-console.log("5" - 1)
+- console.log("5" - 1)
 // → 4
 
 - "5" becomes 5 (from string to number)
 
-console.log("5" + 1)
+- console.log("5" + 1)
 // → 51
 
 - + tries string concatenation before numeric addition, so the 1 is converted to "1"
 - if any one is String then it just concat
 
-console.log("five" * 2)
+- console.log("five" * 2)
 // → NaN
 
 - When something that doesn’t map to a number in an obvious way (such as "five" or undefined) is converted to a number, you get the value NaN.
 
-console.log(false == 0)
+- console.log(false == 0)
 // → true
 
-console.log(null == undefined);
+- console.log(null == undefined);
 // → true
 
-console.log(null == 0);
+- console.log(null == 0);
 // → false
 
-console.log(null || "user")
+- console.log(null || "user")
 // → user
 
-console.log("Agnes" || "user")
+- console.log("Agnes" || "user")
 // → Agnes
 
-var a = 100;
+- var a = 100;
 var b = true;
 a+b;
 → 101
 
-true+true
+- true+true
 2
 
-num = 16;
+- num = 16;
 num2= null;
 num+num2;
 16
