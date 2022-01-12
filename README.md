@@ -1,5 +1,5 @@
-# Eloquent.js Book Notes
-## Chapter 1 - Intro 
+# INTRODUCTION
+
 1. programming is dynamic in nature and it cannot be managed using methods like best practices. Practice makes a good program
 2. language adds structure to a program. It makes the program understandable and actionable to a developer
 3. JavaScript was developed by Brendan Eich in 1995 to program web pages in Netscape Navigator
@@ -7,7 +7,7 @@
 5. ECMAScript and JavaScript can be used interchangeably—they are two names for the same language.
 6. typographic conventions - the monospace font is used for code snippets
 
-## Chapter 2 - Values, Types & Operators
+# VALUES , TYPES AND OPERATORS
 
 - console.log("Aardvark" < "Zoroaster")
  → true
@@ -85,14 +85,15 @@ num+num2;
 
 - Operator return the value to its left when that can be converted to true and will return the value on its right otherwise
 
-# [2. Program Structure]
+# PROGRAM STRUCTURE
+
 - Expressions and statements :
 
-**Expression** ⇒ A fragment of code that produces a value ⇒ ex.  18,    "Vaibhav";
+1. Expression ⇒ A fragment of code that produces a value ⇒ ex.  18,    "Vaibhav";
 
-**Statement** ⇒ A full sentence ex. var name = "Vaibhav";
+2. Statement ⇒ A full sentence ex. var name = "Vaibhav";
 
-**Variable** / ( **Binding** ) ⇒ Container , to keep the value (var in above example)
+- Variable / ( Binding ) ⇒ Container , to keep the value (var in above example)
 
 1. can contain digits ex. var myFav5things = "abcde" ; ✅
     
@@ -115,9 +116,9 @@ switch this throw true try typeof var void while with yield
 1. We can change variables dynamically. (It's allowed)
     
     var name = " Vaibhav";
-    
     var name = "Matere";
+    
 Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.notion.site/Values-Types-Operators-1-05baad4e34c84398b33b5d844536458d , 2 at second and so on)
 [Solution](https://replit.com/@Vaibhav18Matere/star-pattern-do-while-loop)
 
-# [3. Function](https://amusing-freon-21f.notion.site/Function-aa9ed12642e04587b1c9129e5413f045)
+# Function
