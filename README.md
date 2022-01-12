@@ -1,5 +1,5 @@
 # Eloquent.js Book Notes
-## Chapter 1 Intro 
+## Chapter 1 - Intro 
 1. programming is dynamic in nature and it cannot be managed using methods like best practices. Practice makes a good program
 2. language adds structure to a program. It makes the program understandable and actionable to a developer
 3. JavaScript was developed by Brendan Eich in 1995 to program web pages in Netscape Navigator
@@ -7,7 +7,83 @@
 5. ECMAScript and JavaScript can be used interchangeably—they are two names for the same language.
 6. typographic conventions - the monospace font is used for code snippets
 
-# [1. Values, Types & Operators](https://amusing-freon-21f.notion.site/Values-Types-Operators-1-05baad4e34c84398b33b5d844536458d)
+## Chapter 2 - Values, Types & Operators
+
+console.log("Aardvark" < "Zoroaster")
+ → true
+
+"Z" < "a"
+→  true 
+
+- uppercase letters are always “less” than lowercase ones
+
+console.log(NaN == NaN)
+ → false
+
+- NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
+
+console.log(true && false)
+// → false
+
+console.log(true && true)
+// → true
+
+console.log(false || true)
+// → true
+
+console.log(false || false)
+// → false
+
+console.log(8 * null)
+// → 0
+
+- null  becomes 0
+
+console.log("5" - 1)
+// → 4
+
+- "5" becomes 5 (from string to number)
+
+console.log("5" + 1)
+// → 51
+
+- + tries string concatenation before numeric addition, so the 1 is converted to "1"
+- if any one is String then it just concat
+
+console.log("five" * 2)
+// → NaN
+
+- When something that doesn’t map to a number in an obvious way (such as "five" or undefined) is converted to a number, you get the value NaN.
+
+console.log(false == 0)
+// → true
+
+console.log(null == undefined);
+// → true
+
+console.log(null == 0);
+// → false
+
+console.log(null || "user")
+// → user
+
+console.log("Agnes" || "user")
+// → Agnes
+
+var a = 100;
+var b = true;
+a+b;
+→ 101
+
+true+true
+2
+
+num = 16;
+num2= null;
+num+num2;
+16
+
+- Operator return the value to its left when that can be converted to true and will return the value on its right otherwise
 
 # [2. Program Structure](https://www.notion.so/Program-Structure-8e4cb71cd6a1499a8bab4bc96b705f29)
 Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.notion.site/Values-Types-Operators-1-05baad4e34c84398b33b5d844536458d , 2 at second and so on)
