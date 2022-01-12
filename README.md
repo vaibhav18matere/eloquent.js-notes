@@ -85,7 +85,38 @@ num+num2;
 
 - Operator return the value to its left when that can be converted to true and will return the value on its right otherwise
 
-# [2. Program Structure](https://www.notion.so/Program-Structure-8e4cb71cd6a1499a8bab4bc96b705f29)
+# [2. Program Structure]
+- Expressions and statements :
+
+**Expression** ⇒ A fragment of code that produces a value ⇒ ex.  18,    "Vaibhav";
+
+**Statement** ⇒ A full sentence ex. var name = "Vaibhav";
+
+**Variable** / ( **Binding** ) ⇒ Container , to keep the value (var in above example)
+
+1. can contain digits ex. var myFav5things = "abcde" ; ✅
+    
+    but can't start with digits ex var 5favThings = "abcde"; ❌ 
+    
+2. No punctuations except dollar signs ( $ ) and  underscore ( _ ) :  
+    
+    ex. var me$my_javascriptNotes = "abcd";
+    
+3. Also don't use reserved keywords for variable name 
+
+```
+break case catch class const continue debugger default
+delete do else enum export extends false finally for
+function if implements import interface in instanceof let
+new package private protected public return static super
+switch this throw true try typeof var void while with yield
+```
+
+1. We can change variables dynamically. (It's allowed)
+    
+    var name = " Vaibhav";
+    
+    var name = "Matere";
 Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.notion.site/Values-Types-Operators-1-05baad4e34c84398b33b5d844536458d , 2 at second and so on)
 [Solution](https://replit.com/@Vaibhav18Matere/star-pattern-do-while-loop)
 
