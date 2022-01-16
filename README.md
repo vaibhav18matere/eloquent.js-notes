@@ -121,7 +121,7 @@ switch this throw true try typeof var void while with yield
 Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.notion.site/Values-Types-Operators-1-05baad4e34c84398b33b5d844536458d , 2 at second and so on)
 [Solution](https://replit.com/@Vaibhav18Matere/star-pattern-do-while-loop)
 
-# Function
+# FUNCTION
 - Function declarations are not part of the regular top-to-bottom flow of control.
     - Code works, even though the function is defined *below* the code that uses it
     
@@ -134,7 +134,7 @@ Excercise 1 : Star pattern (one star at first linehttps://amusing-freon-21f.noti
     ```
     
 
-**Arrow functions  ⇒** 
+**Arrow function  ⇒** 
 
 It expresses something like “this input (the parameters) produces this result (the body)”
 
