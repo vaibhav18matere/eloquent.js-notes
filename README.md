@@ -1,4 +1,4 @@
-# INTRODUCTION
+INTRODUCTION
 
 1. programming is dynamic in nature and it cannot be managed using methods like best practices. Practice makes a good program
 2. language adds structure to a program. It makes the program understandable and actionable to a developer
