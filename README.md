@@ -1,41 +1,67 @@
 INTRODUCTION
 
-1. programming is dynamic in nature and it cannot be managed using methods like best practices. Practice makes a good program
-2. language adds structure to a program. It makes the program understandable and actionable to a developer
-3. JavaScript was developed by Brendan Eich in 1995 to program web pages in Netscape Navigator
-4. ECMAScript standard is the Universal standard for JavaScript
-5. ECMAScript and JavaScript can be used interchangeably—they are two names for the same language.
-6. typographic conventions - the monospace font is used for code snippets
+- Programming is dynamic in nature and it cannot be managed using methods like best practices. Practice makes a good program
+- Language adds structure to a program. It makes the program understandable and actionable to a developer
+- JavaScript was developed by Brendan Eich in 1995 to program web pages in Netscape Navigator
+- ECMAScript standard is the Universal standard for JavaScript
+- ECMAScript and JavaScript can be used interchangeably—they are two names for the same language.
+- Typographic conventions - the monospace font is used for code snippets
+```javascript
 
+```
 # VALUES , TYPES AND OPERATORS
 
-- console.log("Aardvark" < "Zoroaster")
- → true
+```javascript
+console.log("Aardvark" < "Zoroaster")
+```
+<details><summary><b>Answer</b></summary>
+<p>true</p>
+</details>
 
-- "Z" < "a"
-→  true 
 
-- uppercase letters are always “less” than lowercase ones
+```javascript
+console.log(NaN == NaN)
+```
+<details><summary><b>Answer</b></summary>
+<p>false</p>
+ NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
+</details>
 
-- console.log(NaN == NaN)
- → false
+- Uppercase letters are always “less” than lowercase ones
 
-- NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
 
-- console.log(true && false)
-// → false
 
-- console.log(true && true)
-// → true
+```javascript
+console.log(true && false)
+```
+<details><summary><b>Answer</b></summary>
+<p>false</p>
+</details>
 
-- console.log(false || true)
-// → true
+```javascript
+console.log(true && true)
+```
+<details><summary><b>Answer</b></summary>
+<p>true</p>
+</details>
 
-- console.log(false || false)
-// → false
+```javascript
+console.log(false || true)
+```
+<details><summary><b>Answer</b></summary>
+<p>true</p>
+</details>
 
-- console.log(8 * null)
-// → 0
+
+```javascript
+console.log(false || false)
+```
+<details><summary><b>Answer</b></summary>
+<p>false</p>
+</details>
+
+console.log(8 * null)
+0
 
 - null  becomes 0
 
