@@ -6,9 +6,7 @@ INTRODUCTION
 - ECMAScript standard is the Universal standard for JavaScript
 - ECMAScript and JavaScript can be used interchangeably—they are two names for the same language.
 - Typographic conventions - the monospace font is used for code snippets
-```javascript
 
-```
 # VALUES , TYPES AND OPERATORS
 
 ```javascript
@@ -16,6 +14,7 @@ console.log("Aardvark" < "Zoroaster")
 ```
 <details><summary><b>Answer</b></summary>
 <p>true</p>
+ <p>Uppercase letters are always “less” than lowercase ones</p>
 </details>
 
 
@@ -27,7 +26,6 @@ console.log(NaN == NaN)
  NaN is supposed to denote the result of a nonsensical computation, and as such, it isn’t equal to the result of any other nonsensical computations.
 </details>
 
-- Uppercase letters are always “less” than lowercase ones
 
 
 
