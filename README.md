@@ -58,56 +58,91 @@ console.log(false || false)
 <p>false</p>
 </details>
 
+```javascript
 console.log(8 * null)
-0
+```
+<details><summary><b>Answer</b></summary>
+<p>0</p>
+<p>because null becomes 0</p>
+</details>
 
-- null  becomes 0
+```javascript
+console.log("5" - 1)
+```
+<details><summary><b>Answer</b></summary>
+<p>4</p>
+<p>"5" becomes 5 (from string to number)</p>
+</details>
 
-- console.log("5" - 1)
-// → 4
+```javascript
+console.log("5" + 1)
+```
+<details><summary><b>Answer</b></summary>
+<p>51</p>
+<p>+ tries string concatenation before numeric addition, so the 1 is converted to "1"</p>
+<p>if any one is String then it just concat</p>
+</details>
 
-- "5" becomes 5 (from string to number)
+```javascript
+console.log("five" * 2)
+```
+<details><summary><b>Answer</b></summary>
+<p>NaN</p>
+<p>When something that doesn’t map to a number in an obvious way (such as "five" or undefined) is converted to a number, you get the value NaN.</p>
+</details>
 
-- console.log("5" + 1)
-// → 51
+```javascript
+console.log(false == 0)
+```
+<details><summary><b>Answer</b></summary>
+<p>true</p>
+</details>
 
-- + tries string concatenation before numeric addition, so the 1 is converted to "1"
-- if any one is String then it just concat
+```javascript
+console.log(null == undefined);
+```
+<details><summary><b>Answer</b></summary>
+<p>true</p>
+</details>
 
-- console.log("five" * 2)
-// → NaN
+```javascript
+console.log(null == 0);
+```
+<details><summary><b>Answer</b></summary>
+<p>false</p>
+</details>
 
-- When something that doesn’t map to a number in an obvious way (such as "five" or undefined) is converted to a number, you get the value NaN.
+```javascript
+console.log(null || "user");
+```
+<details><summary><b>Answer</b></summary>
+<p>user</p>
+</details>
 
-- console.log(false == 0)
-// → true
+```javascript
+console.log("Agnes" || "user")
+```
+<details><summary><b>Answer</b></summary>
+<p>Agnes</p>
+</details>
 
-- console.log(null == undefined);
-// → true
-
-- console.log(null == 0);
-// → false
-
-- console.log(null || "user")
-// → user
-
-- console.log("Agnes" || "user")
-// → Agnes
-
-- var a = 100;
+```javascript
+var a = 100;
 var b = true;
-a+b;
-→ 101
+console.log(a+b);
+```
+<details><summary><b>Answer</b></summary>
+<p>101</p>
+</details>
 
-- true+true
-2
-
-- num = 16;
+```javascript
+num = 16;
 num2= null;
 num+num2;
-16
-
-- Operator return the value to its left when that can be converted to true and will return the value on its right otherwise
+```
+<details><summary><b>Answer</b></summary>
+<p>16</p>
+</details>
 
 # PROGRAM STRUCTURE
 
